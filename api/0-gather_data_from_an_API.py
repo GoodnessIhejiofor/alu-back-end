@@ -21,5 +21,5 @@ if __name__ == "__main__":
 
     print("Employee {} is done with tasks({}/{}):".format(employee_name,
           task_completed, total_task_done))
-
-    [print("\t {}".format(task.get("title"))) for task in total_tasks]
+    
+    [print("\t " + task["title"]) for task in task_completed]
